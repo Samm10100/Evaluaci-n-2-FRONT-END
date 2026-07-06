@@ -1,2 +1,2 @@
-# Evaluaci-n-2-FRONT-END
+# Evaluacion-2-FRONT-END
 Grupo: Stephanie Sánchez y Samuel Riquelme

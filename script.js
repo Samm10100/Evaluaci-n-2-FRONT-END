@@ -121,19 +121,19 @@ document.addEventListener("DOMContentLoaded", () => {
     primary: { 
       btnClass: 'btn-primary', cardClass: 'text-bg-primary',
       header: 'Fase 1: Gatito descansando...', title: 'Cuadro: Gato mimiendo..zzz!',
-      desc: 'Hermosa pintura clásica. Tenemos suficientes unidades disponibles.',
+      desc: 'Un adorable gato durmiendo...',
       img: 'https://i.pinimg.com/736x/84/a1/e0/84a1e0b276dfc63f5329406da148f514.jpg' 
     },
     warning: { 
       btnClass: 'btn-warning', cardClass: 'text-bg-warning',
       header: 'Fase 2: Si sigues, se enojará!', title: 'Cuadro: Gato enojado!!!!',
-      desc: 'El stock está bajando. ¡Agrega esta obra a tu carrito antes de que se agote!',
+      desc: 'El gato está enojado!',
       img: 'https://i.pinimg.com/736x/f3/ab/b4/f3abb4f2807463220bacf043c3db3c68.jpg' 
     },
     danger: { 
       btnClass: 'btn-danger', cardClass: 'text-bg-danger',
       header: 'Fase 3: Toma tu merecido!', title: 'Cuadro: Gato emputado!!!!',
-      desc: '¡Quedan muy pocas obras! Si no confirmas tu carrito pronto, podrías perderlo.',
+      desc: 'Ya se descontroló el gato, cuidado!',
       img: 'https://i.pinimg.com/736x/d9/0e/33/d90e339d910188d5f58722a3a5491df4.jpg' 
     }
   };
@@ -156,7 +156,7 @@ document.addEventListener("DOMContentLoaded", () => {
     count--; 
     if (count === 0) {
       count = startCount; 
-      alert("¡Stock agotado! Se ha repuesto el inventario de la tienda.");
+      alert("¡Gatitos reiniciandose...!Por favor, no molestar.");
     }
     updateDashboard();
   });
@@ -165,7 +165,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (count < startCount) {
       count++; updateDashboard();
     } else {
-      alert("Tu carrito de cuadros está vacío.");
+      alert("Muy bien, no molestar al gato.");
     }
   });
 
